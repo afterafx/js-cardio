@@ -35,12 +35,7 @@ const people = [
 
 describe('filterByLength', () => {
   it('filters by length of 15', () => {
-    const answer = [
-      'Gilbertine Stichall',
-      'Johnette Chatelot',
-      'Thorstein Woodward',
-      'Bastien Leyrroyd',
-    ];
+    const answer = ['Gilbertine Stichall', 'Johnette Chatelot', 'Thorstein Woodward', 'Bastien Leyrroyd'];
     expect(filterByLength(people, 15)).toEqual(answer);
   });
 
